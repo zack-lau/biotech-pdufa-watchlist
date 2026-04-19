@@ -1,0 +1,514 @@
+{
+  "lastUpdated": "2026-04-20",
+  "timezone": "Asia/Singapore (SGT)",
+  "summary": {
+    "tracked": 10,
+    "high": 1,
+    "medium": 4,
+    "watch": 5,
+    "resolved": 0
+  },
+  "calendarNote": "Small/mid-cap focus. Sponsors with market cap > $10B excluded per watchlist rule. Last calendar sweep 2026-04-20 SGT.",
+  "resolved": [],
+  "tickers": [
+    {
+      "ticker": "GRCE",
+      "company": "Grace Therapeutics",
+      "drug": "GTx-104 (IV nimodipine)",
+      "indication": "aSAH (aneurysmal subarachnoid hemorrhage)",
+      "rating": "high",
+      "pdufaDate": "2026-04-23",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "~65-80% community consensus; Polymarket ~86%",
+      "nme": "Yes",
+      "btd": "No",
+      "shortInterest": "12.01%",
+      "iv": "Elevated (est. 50%+ move priced)",
+      "price": "$4.60",
+      "marketCap": "~$71M",
+      "analystPT": "$12.00 (mean, 2-3 analysts)",
+      "drugProfile": "GTx-104 is a novel intravenous nanoparticle/micelle formulation of nimodipine — the only FDA-approved drug for aSAH since 1988 — designed to replace the crash-and-flush oral nasogastric route in unconscious NICU patients. Filed via the <strong>505(b)(2) pathway</strong>, GTx-104 leverages nimodipine's 40-year safety record while demonstrating superior pharmacokinetics via peripheral IV infusion with no central line required. Phase 3 STRIVE-ON (N=102) met its primary endpoint: 28% vs. 35% clinically significant hypotension (19% relative reduction). Secondary endpoints all favored GTx-104: 54% vs. 8% dose intensity; ~29% relative mRS improvement; fewer ICU and ventilator days. Orphan Drug Designation provides 7-year U.S. exclusivity; a method-of-use patent extends to 2043.",
+      "bull": "505(b)(2) with FDA pre-alignment and clean NDA package; primary endpoint met; no AdCom; 40-year nimodipine safety record\nStrong secondary endpoints: 29% mRS improvement; 54% vs. 8% dose intensity; pharmacoeconomic argument for hospital formularies\nOrphan exclusivity (7 years) + 2043 patent; ~42,500 annual U.S. aSAH patients at ~880 centers; lean targeted sales force model; TAM/Cap ratio >20x",
+      "bear": "Death imbalance (8 vs. 4 deaths) in N=102; FDA may apply conservative scrutiny to this signal in a critically ill population\nNo open-market insider purchases pre-PDUFA; absence of discretionary buying noted (though blackout period is common confound)\nOral nimodipine is generic; hospital pharmacies and payers must accept premium IV pricing based on cost-offset arguments",
+      "risk": "CRL risk: Moderate; primary trigger is the death imbalance or CMC issues; a CRL would send GRCE toward ~$1.21/share cash floor (~74% downside from $4.60)\nManufacturing/CMC risk: Low; GTx-104 administered to 200+ patients; nanoparticle formulation validated\nCompetition risk: None near-term; no approved IV nimodipine in U.S.; Orphan + 2043 patent forestall generics",
+      "xSentiment": {
+        "overall": "Bullish",
+        "volume": "Moderate",
+        "summary": "Dominated by biotech catalyst traders in the April 6-20 window; @StocksDaily called GRCE one of the biggest expected April movers; @ffkipa4 cited Polymarket ~86% odds; @jahshrastafari highlighted low-float short-squeeze setup; @richtrades100 warned of 50-70% intraday CRL downside."
+      },
+      "redditSentiment": {
+        "overall": "Bullish",
+        "volume": "Moderate",
+        "summary": "Active discussion in r/biotech_stocks and r/pennystocks pre-PDUFA; multiple posts estimated 60-80% PoA; death imbalance flagged as primary CRL risk; neuro-ICU practitioner community solicited on NG-tube economics with no negative clinical views surfacing."
+      },
+      "insider": {
+        "buys": 0,
+        "sells": 0,
+        "netValue": "$0",
+        "signal": "Neutral",
+        "summary": "No open-market purchases or sales in the 180-day window; four equity compensation A-Awards to board members at $3.80/share in January 2026 are routine compensation grants, not discretionary trades; absence of pre-PDUFA buying is consistent with a blackout period."
+      },
+      "sources": [
+        {"name": "Grace Therapeutics STRIVE-ON Phase 3 PR (Feb 10, 2025)", "url": "https://www.gracetx.com/investors/news-events/press-releases/detail/282/grace-therapeutics-announces-results-from-pivotal-phase-3-strive-on-safety-trial-of-gtx-104-in-asah"},
+        {"name": "Grace Therapeutics NDA Acceptance PR (Aug 27, 2025)", "url": "https://www.gracetx.com/investors/news-events/press-releases/detail/291/grace-therapeutics-announces-u-s-food-and-drug-administration-acceptance-for-review-of-new-drug-application-for-gtx-104"},
+        {"name": "Grace Therapeutics AAN 2026 Abstract PR (Apr 14, 2026)", "url": "https://www.gracetx.com/investors/news-events/press-releases/detail/302/grace-therapeutics-announces-abstract-highlighting-strive-on-phase-3-trial-results-accepted-for-presentation-at-aan-2026"},
+        {"name": "Grace Therapeutics Q3 FY2026 Financial Results (Feb 12, 2026)", "url": "https://www.gracetx.com/investors/news-events/press-releases/detail/299/grace-therapeutics-announces-third-quarter-2026-financial-results-provides-business-update"},
+        {"name": "STRIVE-ON Protocol — Neurocritical Care (PMC, Jan 2025)", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12137520/"},
+        {"name": "MarketBeat — GRCE Short Interest (Mar 31, 2026)", "url": "https://www.marketbeat.com/stocks/NASDAQ/GRCE/short-interest/"},
+        {"name": "MarketBeat — GRCE Analyst Forecasts", "url": "https://www.marketbeat.com/stocks/NASDAQ/GRCE/forecast/"},
+        {"name": "Robinhood — GRCE Stock Quote (Apr 18-19, 2026)", "url": "https://robinhood.com/us/en/stocks/GRCE/"},
+        {"name": "Fintel — GRCE Commercial Strategy / PDUFA (Feb 21, 2026)", "url": "https://fintel.io/topic/what-is-the-commercial-strategy-for-gtx-104-given-the-april-23-2026-pdufa-date-and-the-new-patent-extending-to-2043-2644-4243"},
+        {"name": "Reddit r/biotech_stocks — Regulatory Risk Breakdown (Apr 13, 2026)", "url": "https://www.reddit.com/r/biotech_stocks/comments/1skqjye/fda_decision_on_grce_for_gtx104_regulatory_risk/"},
+        {"name": "Reddit r/biotech_stocks — 6 Days to PDUFA (Apr 17, 2026)", "url": "https://www.reddit.com/r/biotech_stocks/comments/1sohuqh/grce_gtx104_iv_nimodipine_asah_6_days_to_pdufa/"},
+        {"name": "X/@StocksDaily — PDUFA Summary (Apr 19, 2026)", "url": "https://x.com/StocksDaily/status/2045715613985943931"},
+        {"name": "Polymarket GRCE GTx-104 Approval Market", "url": "https://polymarket.com/event/fda-approves-grace-therapeutics-gtx-104"},
+        {"name": "Clinical Trial Vanguard — FDA-Grace Alignment (Apr 10, 2025)", "url": "https://www.clinicaltrialvanguard.com/news/grace-therapeutics-and-fda-align-on-gtx-104-nda-submission/"},
+        {"name": "Stockanalysis — GRCE Market Cap", "url": "https://stockanalysis.com/stocks/grce/market-cap/"}
+      ]
+    },
+    {
+      "ticker": "AXSM",
+      "company": "Axsome Therapeutics",
+      "drug": "AXS-05 (Auvelity — DXM/bupropion, sNDA)",
+      "indication": "Agitation associated with Alzheimer's disease",
+      "rating": "medium",
+      "pdufaDate": "2026-04-30",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "~75-85% sell-side (Guggenheim 85%, Mar 25, 2026)",
+      "nme": "No",
+      "btd": "Yes",
+      "shortInterest": "~6.4%",
+      "iv": "Elevated (appeared on unusual IV list ~Apr 13, 2026)",
+      "price": "$188.99",
+      "marketCap": "~$9.67B",
+      "analystPT": "$226.55 avg / $223.00 median (11 analysts; Strong Buy)",
+      "drugProfile": "AXS-05 (Auvelity) is a <strong>multimodal CNS agent</strong> combining dextromethorphan (NMDA receptor antagonist, sigma-1 receptor agonist, nicotinic modulator) with bupropion (CYP2D6 inhibitor enabling therapeutic DXM plasma levels, plus NE/DA reuptake inhibition). Already approved in 2022 for MDD, this sNDA seeks approval for Alzheimer's disease agitation. The sNDA is supported by four pivotal Phase 3 trials — ADVANCE-1 (met, p=0.010), ACCORD-1 (met, p=0.014), ACCORD-2 (met, p=0.001; 3.6-fold lower relapse risk vs. placebo), and ADVANCE-2 (missed primary, numerical trend only). Breakthrough Therapy Designation (June 2020) and Priority Review (Dec 31, 2025) indicate strong FDA engagement. No antipsychotic-class boxed mortality warning — a key differentiator vs. Rexulti.",
+      "bull": "3/4 pivotal Phase 3 trials positive; BTD and Priority Review; ACCORD-2 showed 3.6-fold lower relapse risk (HR=0.276, p=0.001); differentiated non-antipsychotic mechanism with no boxed mortality warning\nAuvelity already $507M/year with 600-rep sales force expanded for AD agitation launch; $2B+ incremental sales potential (UBS); Medicare Part D payer mix improves GTN vs. MDD\nMultiple pipeline catalysts beyond April 30: AXS-12 NDA under review (cataplexy, Orphan Drug Designation); AXS-14 FORWARD Phase 3 active; CEO indirect stake ~$1.4B demonstrates alignment",
+      "bear": "ADVANCE-2 missed primary endpoint (CMAI 13.8 vs. 12.6); FDA could CRL or impose narrow label (requiring prior antipsychotic failure); bupropion seizure risk in elderly AD population with seizure comorbidity\nStock near 52-week high (~$189/$191.50) at ~$9.7B market cap; approval likely priced in; historical sell-the-news risk on clean approvals after ~27% YTD run\nPayer step-edit through Rexulti likely; GTN in mid-40s to mid-50s range; nursing home formulary uptake may lag; KarXT (BMS) in Phase 3 for AD agitation adds future competition",
+      "risk": "CRL probability: ~15-25%; ADVANCE-2 miss is primary trigger; narrow label probability ~20-30%\nSell-the-news probability even on approval: ~40-50% given priced-in valuation at ~$9.7B cap\nPipeline setbacks (AXS-12 RTF, AXS-14 delays): ~20% probability each",
+      "xSentiment": {
+        "overall": "Bullish",
+        "volume": "Moderate",
+        "summary": "Multiple accounts called AXSM 'the biggest CNS regulatory decision in April'; approval described as base case at 70-85% implied odds; CEO insider selling clarified as pre-planned 2016 options expiry; @WassimLaroussi3 flagged $9B cap as priced-for-perfection; Japanese speculative interest noted."
+      },
+      "redditSentiment": {
+        "overall": "Bullish",
+        "volume": "Moderate",
+        "summary": "Cautiously bullish in r/AXSM, r/biotech_stocks, r/Biotechplays; approval widely expected as base case; debate centers on ADVANCE-2 label risk and sell-the-news dynamics; Truist modeled $2.3B peak sales 2034; CEO indirect $1.4B stake repeatedly cited to counter selling concerns."
+      },
+      "insider": {
+        "buys": 1,
+        "sells": 29,
+        "netValue": "-$75M (est.)",
+        "signal": "Neutral",
+        "summary": "All executive sales are pre-planned 10b5-1 exercises of $8.02 stock options granted in 2016 expiring May 2026; CEO Tabuteau retains ~7.35M shares (~$1.4B) indirectly through Antecip Capital; Director Mark Coleman made 1 open-market purchase of 1,575 shares ($200K) in September 2025."
+      },
+      "sources": [
+        {"name": "Axsome ACCORD-2/ADVANCE-2 Topline Results (GlobeNewswire, Dec 30, 2024)", "url": "https://www.globenewswire.com/news-release/2024/12/30/3002588/33090/en/Axsome-Therapeutics-Announces-Successful-Completion-and-Results-of-Phase-3-Clinical-Program-of-AXS-05-in-Alzheimer-s-Disease-Agitation.html"},
+        {"name": "Axsome / BioSpace — FDA Acceptance and Priority Review (Jan 1, 2026)", "url": "https://www.biospace.com/press-releases/axsome-therapeutics-announces-fda-acceptance-and-priority-review-of-supplemental-new-drug-application-for-axs-05-for-the-treatment-of-alzheimers-disease-agitation"},
+        {"name": "FDA.gov — Approval of Rexulti for AD Agitation (May 11, 2023)", "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-drug-treat-agitation-symptoms-associated-dementia-due-alzheimers-disease"},
+        {"name": "Clinical Trials Arena — AAN 2025: Axsome / AD Agitation (Apr 9, 2025)", "url": "https://www.clinicaltrialsarena.com/analyst-comment/aan-2025-axsome-therapeutics-alzheimers-agitation/"},
+        {"name": "Investing.com — CEO Tabuteau Sells $6.0M (Feb 2, 2026)", "url": "https://www.investing.com/news/insider-trading-news/axsome-therapeutics-ceo-tabuteau-sells-60m-in-shares-93CH-4480446"},
+        {"name": "BioSpace — AXSM Preliminary Q4 and Full Year 2025 Revenue (Jan 12, 2026)", "url": "https://www.biospace.com/press-releases/axsome-therapeutics-provides-preliminary-fourth-quarter-and-full-year-2025-net-product-revenue"},
+        {"name": "MarketBeat — AXSM Short Interest", "url": "https://www.marketbeat.com/stocks/NASDAQ/AXSM/short-interest/"},
+        {"name": "OpenInsider — AXSM Insider Transactions", "url": "http://openinsider.com/search?q=AXSM"},
+        {"name": "Reddit r/AXSM — March 31, 2026 Deep Dive: Setup to April 30 PDUFA", "url": "https://www.reddit.com/r/AXSM/comments/1s8sj72/axsome_therapeutics_axsm_march_31_2026_deep_dive/"},
+        {"name": "Reddit r/biotech_stocks — AXSM Phase 3 Discussion (Dec 30, 2024)", "url": "https://www.reddit.com/r/biotech_stocks/comments/1hpombb/axome_therapeutics_axsm_announces_phase_3/"},
+        {"name": "X/@booooogy01 — AXSM PDUFA Overview (Apr 2026)", "url": "https://x.com/booooogy01/status/2045046511398998273"},
+        {"name": "X/@jayg327 — CEO Insider Selling Clarification (Apr 17-18, 2026)", "url": "https://x.com/jayg327/status/2045309516103979405"},
+        {"name": "Intellectia.ai — Axsome FY2025 Revenue; Analyst Reactions Apr 2026", "url": "https://intellectia.ai/news/monitor/axsome-therapeutics-projects-6385m-revenue-for-2025-driven-by-auvelity-sales"},
+        {"name": "Yahoo Finance — Axsome Highlights Auvelity Momentum, 600-Rep Sales Push (Feb 25, 2026)", "url": "https://finance.yahoo.com/news/axsome-therapeutics-highlights-auvelity-momentum-021047283.html"},
+        {"name": "Alzheimer's News Today — AXS-05 FDA decision expected Apr 30", "url": "https://alzheimersnewstoday.com/news/fda-decision-axs-05-alzheimers-agitation-expected-april-30/"}
+      ]
+    },
+    {
+      "ticker": "MNKD",
+      "company": "MannKind Corporation",
+      "drug": "Afrezza (insulin human inhalation powder, sBLA)",
+      "indication": "Diabetes mellitus in pediatric patients age 4+ (T1D and T2D)",
+      "rating": "medium",
+      "pdufaDate": "2026-05-29",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "~55-65% (per-protocol supportive; ITT primary missed)",
+      "nme": "No",
+      "btd": "No",
+      "shortInterest": "9.83%",
+      "iv": "No unusual activity detected (mid-Apr 2026)",
+      "price": "$2.84",
+      "marketCap": "~$875M",
+      "analystPT": "$8.25 avg (range $3.50-$15.00; Strong Buy 5/6)",
+      "drugProfile": "Afrezza is a <strong>rapid-acting inhaled human insulin</strong> delivered via MannKind's Technosphere dry-powder inhalation platform. Originally approved in 2014 for adults with T1D and T2D, this sBLA seeks label expansion to pediatric patients aged four years and older — fulfilling a required post-marketing commitment from the original approval and potentially making Afrezza the <strong>first needle-free mealtime insulin for children in over 100 years</strong> of insulin therapy. The pivotal INHALE-1 trial (N=230, ages 4-17) narrowly missed the ITT non-inferiority primary endpoint (HbA1c difference +0.18%, P=0.091) but met the pre-specified per-protocol analysis (P=0.016). Secondary endpoints significantly favored Afrezza: no FEV1 difference (P=0.53), superior treatment satisfaction (P=0.004), and lower weight/BMI percentile gain (P=0.009). No AdCom scheduled.",
+      "bull": "Per-protocol analysis met non-inferiority (P=0.016); FDA has precedent for supplemental approvals on totality of evidence, particularly for required pediatric PMCs; first needle-free mealtime insulin for children in over 100 years\nClean pulmonary safety (no FEV1 difference); superior treatment satisfaction (P=0.004) and weight/BMI advantage (P=0.009); second PDUFA (Furoscix ReadyFlow, July 26, 2026) provides near-term secondary catalyst\nStock at $2.84 — 66% discount to $8.25 analyst consensus PT; $50M/year Tyvaso DPI manufacturing floor through 2031 mitigates royalty erosion risk near-term",
+      "bear": "ITT primary endpoint failed (P=0.091); FDA may CRL or narrow label to adolescents 13+ where outcomes trended better; subgroup concern in 4-12 age cohort\nTyvaso DPI royalty erosion from TreSMI (announced Feb 2026) threatens $128M annual royalty stream; stock fell ~38-40% in a single session; short interest surged 29.8% in March 2026\nHeavily leveraged ($354.6M debt vs. $176M cash; negative stockholders' equity -$51M); MNKD-101 termination (November 2025) removed pipeline optionality",
+      "risk": "CRL probability: Moderate (~35-45%); ITT primary miss is the primary trigger; narrow label (13+ only) is a lower-impact alternative outcome\nTyvaso DPI competitive risk (TreSMI): High long-term; data clarity not expected until 2027; contractual $50M floor provides near-term buffer\nBalance sheet: $354.6M long-term debt against $176M liquid assets; capital structure pressure increases if PDUFA is negative",
+      "xSentiment": {
+        "overall": "Bullish",
+        "volume": "Low",
+        "summary": "May 29 PDUFA appears in Q2 2026 catalyst lists; @BAMBossie81 projected $6-$8 on approval and highlighted the double-PDUFA setup with Furoscix autoinjector; HCPLive interview with INHALE-1 study director noted; no major options flow or broad retail participation."
+      },
+      "redditSentiment": {
+        "overall": "Bullish",
+        "volume": "Low",
+        "summary": "Driven more by T1D patient advocacy than speculative trading; r/diabetes_t1 post 'Afrezza for the win' shows authentic pediatric label enthusiasm; WSB legacy retail enthusiasm is dated; no viral MNKD thread in the past 14 days."
+      },
+      "insider": {
+        "buys": 0,
+        "sells": 1,
+        "netValue": "-$94K",
+        "signal": "Neutral",
+        "summary": "CEO Castagna received 796,000-share equity A-Award on March 23, 2026 (compensation, not open-market); sole open-market sale was SVP Singh 18,777 shares at $5.03 in November 2025 before the TreSMI selloff; no insider purchases in the 180-day window."
+      },
+      "sources": [
+        {"name": "ClinicalTrials.gov — INHALE-1 Study NCT04974528", "url": "https://clinicaltrials.gov/study/NCT04974528"},
+        {"name": "PubMed Central — INHALE-1 Full Results, Diabetes Care 2026", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12818954/"},
+        {"name": "GlobeNewswire — MannKind ATTD 2026 announcement (Mar 9, 2026)", "url": "https://www.globenewswire.com/news-release/2026/03/09/3251909/29517/en/MannKind-to-Present-New-Data-From-Pediatric-and-Adult-Studies-of-Afrezza-at-ATTD-2026.html"},
+        {"name": "American Diabetes Association — INHALE-1 press release (Jun 2025)", "url": "https://diabetes.org/newsroom/press-releases/inhaled-insulin-shown-safe-and-effective-replacement-standard-care-children"},
+        {"name": "MarketBeat — MNKD Short Interest (Apr 16, 2026)", "url": "https://www.marketbeat.com/instant-alerts/mannkind-corporation-nasdaqmnkd-short-interest-up-298-in-march-2026-04-16/"},
+        {"name": "Alpha Spread — MNKD Q4 2025 Earnings Call", "url": "https://www.alphaspread.com/security/nasdaq/mnkd/investor-relations/earnings-call/q4-2025"},
+        {"name": "StocksToTrade — MannKind TreSMI selloff (Feb 26, 2026)", "url": "https://stockstotrade.com/news/mannkind-corporation-mnkd-news-2026_02_26/"},
+        {"name": "Pharmacy Times — FDA accepts Furoscix ReadyFlow sNDA", "url": "https://www.pharmacytimes.com/view/fda-accepts-furosemide-autoinjector-snda-for-treatment-of-edema-in-chronic-kidney-disease-or-chronic-heart-failure"},
+        {"name": "Investing.com — MannKind at Oppenheimer Conference (Feb 26, 2026)", "url": "https://www.investing.com/news/transcripts/mannkind-at-oppenheimer-conference-strategic-insights-for-2026-93CH-4529183"},
+        {"name": "FDA Original Afrezza Approval Letter (Jun 2014)", "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/022472Orig1s000Approv.pdf"},
+        {"name": "United Therapeutics 10-K 2025", "url": "https://ir.unither.com/~/media/Files/U/United-Therapeutics-IR/documents/press-releases/2026/uthr-10-k-2025.pdf"},
+        {"name": "eMPR — MannKind ends MNKD-101 NTM trial (Nov 2025)", "url": "https://www.empr.com/news/mannkind-ends-trial-of-nebulized-clofazimine-for-ntm-lung-disease/"},
+        {"name": "Investing.com — Leerink reiterates Outperform on MNKD (Apr 2026)", "url": "https://www.investing.com/news/analyst-ratings/leerink-reiterates-outperform-on-mannkind-stock-sees-overreaction-93CH-4609934"},
+        {"name": "MarketBeat — MNKD FDA Events and Analyst Ratings", "url": "https://www.marketbeat.com/stocks/NASDAQ/MNKD/fda-events/"},
+        {"name": "companiesmarketcap — MNKD Market Cap", "url": "https://companiesmarketcap.com/mannkind-corp/marketcap/"}
+      ]
+    },
+    {
+      "ticker": "CING",
+      "company": "Cingulate Inc.",
+      "drug": "CTx-1301 (dexmethylphenidate HCl ER)",
+      "indication": "ADHD in children (ages 6+) and adults",
+      "rating": "medium",
+      "pdufaDate": "2026-05-31",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "Moderate-High for 505(b)(2); Form 483 is primary risk factor",
+      "nme": "No",
+      "btd": "No",
+      "shortInterest": "~9.70%",
+      "iv": "Elevated pre-PDUFA (thin options chain; exact % not publicly quoted)",
+      "price": "$5.45",
+      "marketCap": "~$30.6M",
+      "analystPT": "$34.50 avg (Ascendiant $55; Roth $14; Strong Buy 2/2)",
+      "drugProfile": "CTx-1301 is a once-daily, multi-core tablet of <strong>dexmethylphenidate HCl</strong> using Cingulate's proprietary Precision Timed Release (PTR) platform — a tablet-in-tablet architecture with an Erosion Barrier Layer enabling trimodal pulsatile release (35%-45%-20%). Filed via <strong>505(b)(2) pathway</strong> with Focalin XR as the Reference Listed Drug. CTx-1301 achieves onset within 30 minutes, 12+ hours of symptom control in one tablet, and can be taken with or without food. Eight dosage strengths (6.25mg to 50mg) provide coverage from early childhood through adulthood. The Phase 3 pediatric fixed-dose study (ages 6-17) met its primary endpoint at p<0.001; FDA information requests during review have been CMC-only. A Form 483 with three observations was issued to the sole CDMO (Bend Biosciences, Gainesville, GA) in February 2026 — the primary outstanding regulatory risk.",
+      "bull": "505(b)(2) pathway for an already-approved molecule; pediatric Phase 3 at p<0.001; FDA information requests CMC-only throughout review; director open-market purchase at market price alongside Falcon Creek Capital PIPE demonstrates conviction\nCommercial infrastructure in place: Indegene (marketing) and IQVIA (field sales through June 2028); US patent Notice of Allowance March 17, 2026 (protection to May 2042); stock $5.45 vs. $34.50 analyst consensus PT\nNo insider selling in 180-day window; 180-day Falcon Creek lock-up through PDUFA; 8 dosage strengths planned at launch",
+      "bear": "Form 483 with 3 observations at sole CDMO in February 2026 is the primary regulatory risk; manufacturing CRLs are common even for 505(b)(2) applications; resolution before PDUFA not confirmed\nSevere dilution risk: shares grew from 7.25M to 11.63M in 3 months; $100M ATM launched March 24, 2026; annual cash burn ~$17.2M; runway only to late Q4 2026; commercialization requires additional capital raise\nAdult Phase 3 missed primary endpoint; no prior launch experience; crowded generic ADHD market with payer step-edit requirements expected",
+      "risk": "Manufacturing/CMC risk: HIGH — Form 483 resolution is the critical outstanding variable before PDUFA\nDilution risk: HIGH — $100M ATM active; shares outstanding could roughly double; going concern runway only to Q4 2026\nCommercial execution: MEDIUM — Indegene/IQVIA partners provide infrastructure but company has no prior launch experience in a crowded generics market",
+      "xSentiment": {
+        "overall": "Bullish",
+        "volume": "Low",
+        "summary": "Sparse but constructive X discussion; @TheStockDon posted detailed PDUFA setup breakdowns citing 505(b)(2) structural de-risking and Falcon Creek PIPE as conviction signal; @ScalpSpirit noted elevated short interest; @BullMeechum3 flagged $100M ATM dilution as a structural negative."
+      },
+      "redditSentiment": {
+        "overall": "Bullish",
+        "volume": "Low",
+        "summary": "Cautiously bullish; Form 483 manufacturing concern and $100M ATM dilution overhang are the dominant community concerns; r/MerlintraderPub April 11, 2026 deep dive characterized the review as shifted from clinical to CMC follow-up — viewed as positive; r/biotech_stocks bears on equity even if drug approved."
+      },
+      "insider": {
+        "buys": 1,
+        "sells": 0,
+        "netValue": "+$176K",
+        "signal": "Bullish",
+        "summary": "Director Peter Werth made an open-market purchase of 35,019 shares at $5.04 ($176,496) on February 6, 2026 alongside the Falcon Creek PIPE — the most significant insider signal; no insider selling in the 180-day window; CEO and CCO received A-Award compensation grants (not open-market purchases)."
+      },
+      "sources": [
+        {"name": "FDA Accepts Cingulate NDA for CTx-1301 — GlobeNewswire (Oct 14, 2025)", "url": "https://www.globenewswire.com/news-release/2025/10/14/3166151/0/en/FDA-Accepts-Cingulate-s-New-Drug-Application-for-CTx-1301-in-Attention-Deficit-Hyperactivity-Disorder-ADHD-and-sets-a-May-31-2026-PDUFA-Date.html"},
+        {"name": "Cingulate Phase 3 Pediatric Results (AACAP) — BioSpace (Oct 28, 2025)", "url": "https://www.biospace.com/press-releases/cingulate-presents-positive-phase-3-results-for-ctx-1301-demonstrating-statistically-significant-efficacy-and-entire-active-day-symptom-control"},
+        {"name": "Cingulate 10-K Annual Report 2025 — Stock Titan (Mar 18, 2026)", "url": "https://www.stocktitan.net/sec-filings/CING/10-k-cingulate-inc-files-annual-report-1f08fa2fc567.html"},
+        {"name": "Cingulate CTx-1301 FDA NDA Accepted — Psychiatric Times (Oct 2025)", "url": "https://www.psychiatrictimes.com/view/fda-accepts-nda-for-ctx-1301-for-treatment-of-adhd"},
+        {"name": "CING Short Interest Rises 106.8% — MarketBeat (Apr 12, 2026)", "url": "https://www.marketbeat.com/instant-alerts/short-interest-in-cingulate-inc-nasdaqcing-rises-by-1068-2026-04-12/"},
+        {"name": "Cingulate $100M ATM Prospectus 424B3 — Stock Titan (Mar 24, 2026)", "url": "https://www.stocktitan.net/sec-filings/CING/424b3-cingulate-inc-prospectus-filed-pursuant-to-rule-424-b-3-087987a93c32.html"},
+        {"name": "Cingulate Q4 2025 Earnings — Yahoo Finance (Mar 18, 2026)", "url": "https://finance.yahoo.com/news/cingulate-inc-reports-fourth-quarter-120000629.html"},
+        {"name": "Reddit r/MerlintraderPub — CING Deep Dive (Apr 11, 2026)", "url": "https://www.reddit.com/r/MerlintraderPub/comments/1sj6t0s/cingulate_nasdaq_cing_first_full_deep_dive_into/"},
+        {"name": "Reddit r/biotech_stocks — CING Medium Hold with Enormous Upside (Jan 28, 2026)", "url": "https://www.reddit.com/r/biotech_stocks/comments/1qpj3cq/cing_a_medium_hold_with_enormous_upside/"},
+        {"name": "X/@TheStockDon — CING PDUFA Breakdown (Apr 2026)", "url": "https://x.com/TheStockDon/status/2044416436815221129"},
+        {"name": "X/@merlin_trader — CING Deep Dive (Apr 2026)", "url": "https://x.com/merlin_trader/status/2043214418234786234"},
+        {"name": "ADHD Market Size Report 2030 — Grand View Research", "url": "https://www.grandviewresearch.com/industry-analysis/attention-deficit-hyperactivity-disorder-adhd-market"},
+        {"name": "MarketBeat — CING FDA Events", "url": "https://www.marketbeat.com/stocks/NASDAQ/CING/fda-events/"},
+        {"name": "Robinhood — CING Stock Quote (Apr 18, 2026)", "url": "https://robinhood.com/us/en/stocks/CING/"},
+        {"name": "Reddit r/biotech_stocks — CING Patent + Form 483 Discussion (Mar 16, 2026)", "url": "https://www.reddit.com/r/biotech_stocks/comments/1rv4utp/are_you_paying_attention_to_cingulate_cing_patent/"}
+      ]
+    },
+    {
+      "ticker": "ARVN",
+      "company": "Arvinas Inc. (partner: Pfizer)",
+      "drug": "Vepdegestrant (ARV-471)",
+      "indication": "ESR1-mutant ER+/HER2- advanced/metastatic breast cancer (2L+)",
+      "rating": "medium",
+      "pdufaDate": "2026-06-05",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "Moderate-high for ESR1m label (HR=0.57, p<0.001; NDA accepted; no AdCom)",
+      "nme": "Yes",
+      "btd": "No",
+      "shortInterest": "~7.4%",
+      "iv": "Elevated pre-PDUFA (typical binary biotech catalyst)",
+      "price": "$11.00",
+      "marketCap": "~$706M",
+      "analystPT": "$15.67 avg / $16.00 median (range $6-$21; Buy consensus 7/9)",
+      "drugProfile": "Vepdegestrant is the <strong>world's first PROTAC (PROteolysis TArgeting Chimera) estrogen receptor degrader</strong> to reach an FDA approval filing — a landmark for the entire targeted protein degradation field. Unlike classical SERDs, vepdegestrant forms a ternary complex with an E3 ubiquitin ligase and ER, directly and catalytically ubiquitinating ER for proteasomal degradation, including all ESR1 mutant forms (D538G, Y537S). Filed by Arvinas and Pfizer jointly in June 2025; PDUFA June 5, 2026 with standard review and no AdCom. The Phase 3 VERITAC-2 trial (N=624) met its primary endpoint in the pre-specified ESR1-mutant subgroup (43% of patients): HR=0.57 (p<0.001); median PFS 5.0 vs. 2.1 months. The ITT population missed statistical significance (HR=0.83, p=0.07). Near-cash valuation ($685M cash vs. ~$706M market cap) and a pre-PDUFA commercialization deal (expected before June 5 per CEO) provide additional catalysts.",
+      "bull": "First PROTAC approval validates entire targeted protein degradation platform; ESR1m HR=0.57 (p<0.001) statistically robust; near-cash valuation (~$706M vs. $685.4M cash) provides asymmetric floor; Director Morrison $268K open-market buy on March 6, 2026\nPre-PDUFA commercialization deal expected before June 5 per CEO — independently binary positive catalyst; ARV-102 LRRK2 CSF data (>=50% degradation confirmed March 2026) validates brain-penetrant PROTAC technology\nMechanistic superiority: complete ER degradation vs. partial SERD activity in elacestrant; oral vs. fulvestrant IM convenience; ARV-766 licensed to Novartis ($150M upfront + $1.01B milestones) validates platform",
+      "bear": "ITT failed (HR=0.83, p=0.07); label restricted to ESR1m-only (~43% of patients); elacestrant (Orserdu) already FDA-approved January 2023 in this exact setting with established payer/formulary positioning\nPfizer exited direct commercialization after seeing narrowed ESR1m-only label; camizestrant (AZ SERENA-6, H1 2026 regulatory submission) targets adjacent 1L ESR1m emergence setting\nTwo rounds of workforce cuts (33% + 15%); modest absolute PFS benefit (5.0 vs. 2.1 months median); OS data immature; deal-before-PDUFA has ~25-30% probability of not occurring",
+      "risk": "CRL probability: Low (~15-20%); NDA accepted with strong ESR1m data; no AdCom is a positive signal\nNo commercialization deal before PDUFA: Low-moderate (~25-30%); CEO states talks 'progressing well' for finalization before June 5\nCamizestrant competitive approval: Moderate (~40-50%); different (earlier) treatment line but competes for treatment sequence dominance",
+      "xSentiment": {
+        "overall": "Bullish",
+        "volume": "Low",
+        "summary": "@BPharmCatalyst flagged ARVN as a landmark first-PROTAC event in Q2 2026 watchlist; @fiercedotcom provided balanced regulatory coverage; @MBCadvocate patient advocacy discussed vepdegestrant as a new ESR1m option; stock viewed as near-cash with asymmetric upside by @911_TruthNow."
+      },
+      "redditSentiment": {
+        "overall": "Mixed",
+        "volume": "Low",
+        "summary": "Mixed-to-cautiously-bullish; bulls cite first PROTAC milestone and near-cash valuation; bears note ITT failure and Pfizer commercial exit; deal-before-PDUFA flagged as the more likely near-term binary; r/SECWatch NDA acceptance coverage received positively in November 2025."
+      },
+      "insider": {
+        "buys": 1,
+        "sells": 3,
+        "netValue": "+$136K (est. net)",
+        "signal": "Mixed",
+        "summary": "Director Briggs Morrison made a notable open-market purchase of 20,000 shares at $13.40 ($268K) on March 6, 2026 — the strongest bullish signal; CEO Teel received an A-Award and sold small tranches (~8,151 shares) consistent with tax withholding; CMO and CFO sales appear routine."
+      },
+      "sources": [
+        {"name": "VERITAC-2 Phase 3 study design — PMC", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11524203/"},
+        {"name": "VERITAC-2 Positive Topline Results — Pfizer (Mar 11, 2025)", "url": "https://www.pfizer.com/news/press-release/press-release-detail/arvinas-and-pfizer-announce-positive-topline-results-phase"},
+        {"name": "VERITAC-2 ASCO 2025 Full Data — Pfizer (May 31, 2025)", "url": "https://www.pfizer.com/news/press-release/press-release-detail/arvinas-and-pfizers-vepdegestrant-significantly-improves"},
+        {"name": "NDA Acceptance — MarketBeat FDA Events (Aug 8, 2025)", "url": "https://www.marketbeat.com/stocks/NASDAQ/ARVN/fda-events/"},
+        {"name": "Arvinas-Pfizer Out-license Announcement — GlobeNewswire (Sep 17, 2025)", "url": "https://www.globenewswire.com/news-release/2025/09/17/3152028/0/en/arvinas-provides-update-on-collaboration-with-pfizer-and-announces-further-actions-to-support-value-creation.html"},
+        {"name": "Arvinas-Pfizer Partnership Rework — BioPharma Dive (Aug 7, 2025)", "url": "https://www.biopharmadive.com/news/arvinas-pfizer-vepdegestrant-partnership-rework-breast-cancer/757043/"},
+        {"name": "FDA Approves Elacestrant — FDA.gov (Jan 27, 2023)", "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-elacestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast-cancer"},
+        {"name": "ARV-102 Phase 1 Parkinson's Data — StockTitan (Mar 18, 2026)", "url": "https://www.stocktitan.net/news/ARVN/arvinas-announces-positive-phase-1-data-for-arv-102-showing-greater-fjf1f0u7m7n4.html"},
+        {"name": "Arvinas Q4 2025 Financial Results — StockTitan (Feb 24, 2026)", "url": "https://www.stocktitan.net/news/ARVN/arvinas-reports-fourth-quarter-and-full-year-2025-financial-results-kbmne7licrw4.html"},
+        {"name": "ARVN Short Interest — MarketBeat (Mar 31, 2026)", "url": "https://www.marketbeat.com/stocks/NASDAQ/ARVN/short-interest/"},
+        {"name": "Arvinas Restructuring — Fierce Biotech (Sep 18, 2025)", "url": "https://www.fiercebiotech.com/biotech/pfizer-arvinas-lose-interest-commercializing-protac-inhibitor-leading-layoffs-biotech"},
+        {"name": "X/@BPharmCatalyst — ARVN PDUFA Catalyst", "url": "https://x.com/BPharmCatalyst/status/2042635195099099444"},
+        {"name": "X/@MBCadvocate — Patient Advocacy on Vepdegestrant", "url": "https://x.com/MBCadvocate/status/2041083100306751886"},
+        {"name": "companiesmarketcap — VRDN Market Cap (for context)", "url": "https://companiesmarketcap.com/viridian-therapeutics/marketcap/"},
+        {"name": "Arvinas Pipeline Page", "url": "https://www.arvinas.com/research-and-development/pipeline/"}
+      ]
+    },
+    {
+      "ticker": "CAMRF",
+      "company": "Camurus AB",
+      "drug": "Octreotide ER / Oclaiz (CAM2029)",
+      "indication": "Acromegaly",
+      "rating": "watch",
+      "pdufaDate": "2026-06-10",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "nme": "No",
+      "btd": "No",
+      "shortInterest": "N/A — outside window",
+      "iv": "N/A — outside window",
+      "price": "N/A",
+      "marketCap": "~$3.3B",
+      "analystPT": "N/A — outside window",
+      "drugProfile": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bull": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bear": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "risk": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "xSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "redditSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "insider": {
+        "buys": 0,
+        "sells": 0,
+        "netValue": "$0",
+        "signal": "Neutral",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "sources": [
+        {"name": "Camurus NDA Resubmission Acceptance (PDUFA Jun 10, 2026) — PR Newswire", "url": "https://www.prnewswire.com/news-releases/camurus-announces-fda-acceptance-of-nda-resubmission-for-oclaiz-for-the-treatment-of-acromegaly-302657385.html"},
+        {"name": "Camurus CAMRF US OTC Markets", "url": "https://www.otcmarkets.com/stock/CAMRF/quote"},
+        {"name": "MarketWatch — CAMRF", "url": "https://www.marketwatch.com/investing/stock/camrf"}
+      ]
+    },
+    {
+      "ticker": "ACHV",
+      "company": "Achieve Life Sciences",
+      "drug": "Cytisinicline",
+      "indication": "Nicotine dependence / smoking cessation in adults",
+      "rating": "watch",
+      "pdufaDate": "2026-06-20",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "nme": "Yes",
+      "btd": "No",
+      "shortInterest": "N/A — outside window",
+      "iv": "N/A — outside window",
+      "price": "N/A",
+      "marketCap": "~$272M",
+      "analystPT": "N/A — outside window",
+      "drugProfile": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bull": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bear": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "risk": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "xSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "redditSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "insider": {
+        "buys": 0,
+        "sells": 0,
+        "netValue": "$0",
+        "signal": "Neutral",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "sources": [
+        {"name": "Achieve Life Sciences Cytisinicline NDA Acceptance (PDUFA Jun 20, 2026)", "url": "https://ir.achievelifesciences.com/news-events/press-releases/detail/238/achieve-life-sciences-announces-fda-acceptance-of-cytisinicline-new-drug-application-for-treatment-of-nicotine-dependence-for-smoking-cessation"},
+        {"name": "Achieve Life Sciences Homepage", "url": "https://achievelifesciences.com"},
+        {"name": "Robinhood — ACHV Stock Quote", "url": "https://robinhood.com/stocks/ACHV"}
+      ]
+    },
+    {
+      "ticker": "VRDN",
+      "company": "Viridian Therapeutics",
+      "drug": "Veligrotug",
+      "indication": "Thyroid eye disease (TED) — active and chronic",
+      "rating": "watch",
+      "pdufaDate": "2026-06-30",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "nme": "Yes",
+      "btd": "Yes",
+      "shortInterest": "N/A — outside window",
+      "iv": "N/A — outside window",
+      "price": "N/A",
+      "marketCap": "~$1.5B",
+      "analystPT": "N/A — outside window",
+      "drugProfile": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bull": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bear": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "risk": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "xSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "redditSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "insider": {
+        "buys": 0,
+        "sells": 0,
+        "netValue": "$0",
+        "signal": "Neutral",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "sources": [
+        {"name": "Viridian Therapeutics Veligrotug BLA Priority Review (PDUFA Jun 30, 2026) — SEC EX-99.1", "url": "https://www.sec.gov/Archives/edgar/data/1590750/000119312526073391/d105707dex991.htm"},
+        {"name": "Viridian Therapeutics Q4/FY2025 Results", "url": "https://investors.viridiantherapeutics.com/news/news-details/2026/Viridian-Therapeutics-Highlights-Recent-Progress-and-Reports-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx"},
+        {"name": "companiesmarketcap — VRDN Market Cap (Apr 2026)", "url": "https://companiesmarketcap.com/viridian-therapeutics/marketcap/"}
+      ]
+    },
+    {
+      "ticker": "VERA",
+      "company": "Vera Therapeutics",
+      "drug": "Atacicept",
+      "indication": "IgA nephropathy (IgAN)",
+      "rating": "watch",
+      "pdufaDate": "2026-07-07",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "nme": "Yes",
+      "btd": "Yes",
+      "shortInterest": "N/A — outside window",
+      "iv": "N/A — outside window",
+      "price": "N/A",
+      "marketCap": "~$3.0B",
+      "analystPT": "N/A — outside window",
+      "drugProfile": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bull": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bear": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "risk": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "xSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "redditSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "insider": {
+        "buys": 0,
+        "sells": 0,
+        "netValue": "$0",
+        "signal": "Neutral",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "sources": [
+        {"name": "Vera Therapeutics Atacicept BLA Priority Review (PDUFA Jul 7, 2026) — GlobeNewswire", "url": "https://www.globenewswire.com/news-release/2026/01/07/3214426/0/en/Vera-Therapeutics-Announces-U-S-FDA-Granted-Priority-Review-to-Biologics-License-Application-for-Atacicept-for-Treatment-of-Adults-with-IgA-Nephropathy.html"},
+        {"name": "public.com — VERA Market Cap (Apr 17, 2026)", "url": "https://public.com/stocks/vera/market-cap"}
+      ]
+    },
+    {
+      "ticker": "PTGX",
+      "company": "Protagonist Therapeutics (partner: Takeda)",
+      "drug": "Rusfertide",
+      "indication": "Polycythemia vera (PV)",
+      "rating": "watch",
+      "pdufaDate": "2026-07-20",
+      "pdufaDatesExtra": [],
+      "adcom": "None scheduled",
+      "approvalOdds": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "nme": "Yes",
+      "btd": "Yes",
+      "shortInterest": "N/A — outside window",
+      "iv": "N/A — outside window",
+      "price": "N/A",
+      "marketCap": "~$6.8B",
+      "analystPT": "N/A — outside window",
+      "drugProfile": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bull": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "bear": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "risk": "Outside 50-day window; deep research pending at T-50 days from PDUFA.",
+      "xSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "redditSentiment": {
+        "overall": "Quiet",
+        "volume": "Low",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "insider": {
+        "buys": 0,
+        "sells": 0,
+        "netValue": "$0",
+        "signal": "Neutral",
+        "summary": "Not researched — outside 50-day window."
+      },
+      "sources": [
+        {"name": "Protagonist/Takeda Rusfertide NDA Priority Review (PDUFA Q3 2026)", "url": "https://www.takedaoncology.com/newsroom/news-releases/2026/nda-rusfertide/"},
+        {"name": "Rusfertide Catalyst Date ~Jul 20, 2026", "url": "https://dansfera.com/drug/ptgx-rusfertide-pv-phase3"},
+        {"name": "Yahoo Finance — PTGX Market Cap", "url": "https://finance.yahoo.com/quote/PTGX/"}
+      ]
+    }
+  ]
+}
