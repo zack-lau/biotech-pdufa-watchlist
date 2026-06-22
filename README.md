@@ -4,6 +4,12 @@ React + Next.js dashboard for tracking US-listed small- and mid-cap biotech comp
 
 The app is intentionally file-based: `data.json` is the current dashboard data, and `previous-data.json` is used for run-over-run delta badges.
 
+## What It Does
+
+- Built a full-stack Next.js and React dashboard that scans the US small/mid-cap biotech universe for upcoming FDA PDUFA decisions and surfaces qualifying catalysts, with search, filtering, a persistent watchlist, run-over-run change badges, calendar `.ics` export, and light/dark themes.
+- Engineered a scheduled Codex agent that aggregates FDA, SEC, press-release, market, and sentiment data across multiple tools, including Perplexity, yfinance, markitdown, and X; resolves conflicting PDUFA dates by source authority; and synthesizes approval odds plus bull, bear, and risk theses per ticker.
+- Layered failure-aware safeguards into each run: per-field `Unknown` handling, market-data validation with documented tool fallbacks, partial-run banners, JSON and consistency checks, and a Telegram alert gated on a validated refresh.
+
 ## Run Locally
 
 ```bash
