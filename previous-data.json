@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-06-19",
+  "lastUpdated": "2026-06-17",
   "timezone": "Asia/Singapore",
-  "runId": "Run #28 (Jun 19 SGT)",
-  "heroEyebrow": "Friday, 19 June 2026 (SGT) \u00b7 Run #28",
+  "runId": "Run #27 (Jun 17 SGT)",
+  "heroEyebrow": "Wednesday, 17 June 2026 (SGT) \u00b7 Run #27",
   "heroTitle": "US-listed small & mid-cap biotechs with PDUFA dates in the next 90 days",
-  "calendarNote": "Run #28 (Jun 19 SGT). 1 HIGH, 7 MEDIUM, 2 WATCH. SPRO moved to resolved after Utebzi approval on Jun 17; no new tickers were added and no remaining PDUFA dates shifted in the tracked cohort.",
+  "calendarNote": "Run #27 (Jun 17 SGT). 2 HIGH, 7 MEDIUM, 2 WATCH. SPRO (Jun 18, 1 day out) and ACHV (Jun 20, 3 days out) anchor HIGH \u2014 X frames SPRO as a clean ~60\u201392% binary while a manufacturing-driven CRL stays the priced-in base case for ACHV. No adds or drops vs Run #26; Corcept's relacorilant + nab-paclitaxel (Lifyorli) was evaluated and excluded after confirming it was already FDA-approved Mar 25 2026, not a pending Jul 11 PDUFA. No new AdComs, PDUFA date changes, or CRLs disclosed across the cohort.",
   "summary": {
-    "tracked": 10,
-    "high": 1,
+    "tracked": 11,
+    "high": 2,
     "medium": 7,
     "watch": 2,
-    "resolved": 3
+    "resolved": 2
   },
   "resolved": [
     {
@@ -34,20 +34,124 @@
       "outcome": "CRL",
       "outcomeNote": "FDA issued a Complete Response Letter on June 2, 2026 citing Chemistry, Manufacturing and Controls (CMC) information requests; no concerns about clinical safety or efficacy of CTx-1301 were raised. Cingulate stated it expects a prompt resubmission addressing the CMC issues and noted nearly $30M in cash to support the work.",
       "source": "https://www.globenewswire.com/news-release/2026/06/02/3305119/0/en/Cingulate-Receives-Complete-Response-Letter-from-FDA-for-CTx-1301.html"
-    },
-    {
-      "ticker": "SPRO",
-      "company": "Spero Therapeutics",
-      "drug": "Utebzi (tebipenem pivoxil)",
-      "indication": "Complicated urinary tract infections (cUTIs), including pyelonephritis, in adults with limited or no alternative oral treatment options",
-      "pdufaDate": "2026-06-18",
-      "resolvedDate": "2026-06-17",
-      "outcome": "Approved",
-      "outcomeNote": "The FDA approved Utebzi on June 17, 2026 as the first oral carbapenem in the US for certain adults with cUTIs, including pyelonephritis. Spero and GSK said the approval was supported by the Phase 3 PIVOT-PO trial, which showed non-inferiority versus intravenous imipenem-cilastatin.",
-      "source": "https://www.globenewswire.com/news-release/2026/06/17/3313706/0/en/Utebzi-tebipenem-pivoxil-approved-in-the-US-for-adults-with-complicated-urinary-tract-infections-cUTIs.html"
     }
   ],
   "tickers": [
+    {
+      "ticker": "SPRO",
+      "company": "Spero Therapeutics",
+      "drug": "Tebipenem pivoxil hydrobromide (SPR994)",
+      "indication": "Complicated Urinary Tract Infections (cUTI) \u2014 oral carbapenem",
+      "rating": "high",
+      "pdufaDate": "2026-06-18",
+      "pdufaDatesExtra": [],
+      "applicationType": "NDA",
+      "nme": "Yes",
+      "priorityReview": "Yes",
+      "btd": "No",
+      "fastTrack": "Yes",
+      "adcom": "None scheduled",
+      "approvalOdds": "92%",
+      "price": "$2.77",
+      "priceAsOf": "2026-06-17",
+      "marketCap": "$160M",
+      "shortInterest": "2.95%",
+      "shortInterestAsOf": "2026-05-29",
+      "iv": "163%",
+      "ivAsOf": "2026-06-17",
+      "analystPT": "$4.00",
+      "analystPTAsOf": "2026-06-17",
+      "drugProfile": "Tebipenem HBr (SPR994) is an oral carbapenem-class antibiotic \u2014 the first oral carbapenem in development for gram-negative infections. It targets multidrug-resistant (MDR) pathogens including ESBL-producing Enterobacteriaceae. The NDA is supported by PIVOT-PO, a Phase 3 trial vs. IV ertapenem in cUTI that was stopped early for efficacy. Priority Review, Fast Track, and QIDP (Qualified Infectious Disease Product) designations reflect the unmet medical need in resistant gram-negative UTIs. GSK holds global commercialization partnership rights. A prior Complete Response Letter in 2022 was addressed; the NDA was resubmitted with additional manufacturing and clinical data and accepted as a Class 2 (6-month) review.",
+      "bull": [
+        "First oral carbapenem for cUTI addresses a critical unmet need as IV ertapenem requires hospitalization; PIVOT-PO stopped early for overwhelming efficacy.",
+        "Priority Review, Fast Track, and QIDP designations signal FDA alignment on unmet need; GSK partnership provides commercial infrastructure and financial backing.",
+        "Prior CRL in 2022 was addressed and resolved; Class 2 resubmission accepted \u2014 FDA has reviewed the updated data package and CMC remediation.",
+        "Analysts assign 92% approval odds; at $2.98, the stock offers significant upside to $4.00 analyst PT on approval."
+      ],
+      "bear": [
+        "Prior CRL (2022) history; FDA could identify additional CMC or clinical data concerns not yet publicly disclosed in the resubmission.",
+        "Commercial ramp may be slow: payer coverage for premium oral carbapenem vs. IV ertapenem generics will face formulary access challenges.",
+        "Market cap ~$173M reflects high approval probability already priced in; downside on CRL would be severe (>70% decline).",
+        "GSK partnership terms may limit Spero's economics; royalty/milestone structure could disappoint investors even on approval."
+      ],
+      "risk": [
+        "FDA issues another CRL \u2014 extremely low probability but would be devastating given prior CRL history and current stock price implying near-certainty of approval.",
+        "Labeling restrictions (e.g., narrow indication, REMS requirement) could limit commercial addressable market.",
+        "Antibiotic stewardship pressures may limit prescribing of oral carbapenem to narrower resistant-pathogen populations than the trial enrolled."
+      ],
+      "xSentiment": {
+        "overall": "Bullish",
+        "volume": "Medium",
+        "summary": "Cautiously constructive into the Jun 18 PDUFA \u2014 biotech catalyst accounts frame it as one of the cleaner near-term binaries citing the first-in-class oral carbapenem, GSK de-risking, and ~60\u201392% approval odds, with carbapenem-stewardship label language and 'sell-the-news' risk the main caveats."
+      },
+      "redditSentiment": {
+        "overall": "Bullish",
+        "volume": "Low",
+        "summary": "r/biotech and r/stocks show positive sentiment on the oral carbapenem story, with most posts focused on the unmet need angle and limited retail following."
+      },
+      "googleTrends": {
+        "signal": "Unavailable",
+        "volume": "Low",
+        "peakDate": "",
+        "summary": "No Google Trends MCP available in this environment."
+      },
+      "insider": {
+        "buys": 1,
+        "sells": 0,
+        "netValue": "+$89K",
+        "signal": "Positive",
+        "summary": "One director purchased shares in Q1 2026; no insider selling in the past 90 days \u2014 modest but directionally positive signal heading into the PDUFA."
+      },
+      "priceChange": {
+        "asOf": "2026-06-17",
+        "change1D": -4.81,
+        "change5D": -4.3,
+        "change1M": -3.2,
+        "change3M": 4.7,
+        "change6M": 16.4,
+        "change1Y": -12.11,
+        "changeYTD": 14.9,
+        "from52wHigh": -14.0,
+        "from52wLow": 53.9,
+        "vs50dayAvg": 2.7,
+        "vs200dayAvg": 15.7,
+        "notableEvents": []
+      },
+      "cashRunway": {
+        "asOf": "2026-06-05",
+        "cashAndEquivalents": 56129000,
+        "totalDebt": 2474000,
+        "netDebt": -53655000,
+        "quarterlyOperatingCashFlow": 7242000,
+        "quarterlyFreeCashFlow": 13692000,
+        "quarterlyBurn": null,
+        "runwayMonths": null,
+        "dilutionRisk": "Low",
+        "summary": "Spero is FCF positive on GSK milestone receipts and grant income; $56M cash provides sufficient runway with no near-term dilution risk."
+      },
+      "sponsorTrackRecord": {
+        "asOf": "2026-06-05",
+        "approvalsLast10y": 0,
+        "approvalsList": [],
+        "tentativeApprovals": [],
+        "crlsLast10y": 1,
+        "summary": "Spero received a CRL in July 2022 for tebipenem citing clinical and CMC issues; the Class 2 resubmission was accepted, improving the track record assessment for this cycle."
+      },
+      "sources": [
+        {
+          "name": "Spero Therapeutics Q4 2025 & Full Year 2025 Results \u2014 GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/03/26/3263404/0/en/spero-therapeutics-announces-fourth-quarter-and-full-year-2025-operating-results-and-provides-a-business-update.html"
+        },
+        {
+          "name": "GSK and Spero Tebipenem HBr License Agreement",
+          "url": "https://www.gsk.com/en-gb/media/press-releases/gsk-and-spero-therapeutics-announce-exclusive-licence-agreement-for-tebipenem-hbr-a-late-stage-antibiotic-that-may-treat-complicated-urinary-tract-infections/"
+        },
+        {
+          "name": "MarketBeat SPRO Short Interest",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/SPRO/short-interest/"
+        }
+      ]
+    },
     {
       "ticker": "ACHV",
       "company": "Achieve Life Sciences",
