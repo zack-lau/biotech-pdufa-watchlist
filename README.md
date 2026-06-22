@@ -6,9 +6,30 @@ The app is intentionally file-based: `data.json` is the current dashboard data, 
 
 ## What It Does
 
-- Built a full-stack Next.js and React dashboard that scans the US small/mid-cap biotech universe for upcoming FDA PDUFA decisions and surfaces qualifying catalysts, with search, filtering, a persistent watchlist, run-over-run change badges, calendar `.ics` export, and light/dark themes.
-- Engineered a scheduled Codex agent that aggregates FDA, SEC, press-release, market, and sentiment data across multiple tools, including Perplexity, yfinance, markitdown, and X; resolves conflicting PDUFA dates by source authority; and synthesizes approval odds plus bull, bear, and risk theses per ticker.
-- Layered failure-aware safeguards into each run: per-field `Unknown` handling, market-data validation with documented tool fallbacks, partial-run banners, JSON and consistency checks, and a Telegram alert gated on a validated refresh.
+### Dashboard
+
+- Tracks US-listed small- and mid-cap biotech companies with FDA PDUFA target action dates in the next 90 days.
+- Groups catalysts by urgency: high, medium, watch, and resolved.
+- Provides search, filter chips, sort controls, persistent star/hide state, run-over-run change badges, ticker detail cards, and calendar `.ics` export.
+- Shows market context and catalyst research per ticker, including current price, analyst price target, market cap, short interest, implied volatility, sentiment, approval odds, and bull/bear/risk theses.
+- Supports light and dark themes with responsive layouts for desktop and mobile.
+
+### Refresh Pipeline
+
+- Runs from a scheduled Codex heartbeat that follows `AGENTS.md` as the source of truth.
+- Discovers upcoming qualifying PDUFA catalysts across the US small/mid-cap biotech universe.
+- Aggregates regulatory, company, market, and sentiment data from FDA, SEC, press releases, Perplexity, yfinance, markitdown, and X/search tooling.
+- Resolves conflicting PDUFA dates by source authority: company press release or 8-K, FDA.gov, BioPharma Catalyst, Fierce Biotech, then sourced narrative results.
+- Synthesizes approval odds, sponsor track record, cash runway, price action, sentiment, and bull/bear/risk theses for each tracked ticker.
+
+### Run Safeguards
+
+- Uses explicit `Unknown` values when a field cannot be reliably sourced.
+- Validates market data before inclusion and documents tool fallbacks for unavailable or partial sources.
+- Preserves the prior run in `previous-data.json` before writing a new `data.json`.
+- Validates JSON and summary consistency after every refresh.
+- Supports partial-run banners when a refresh completes with known source or tool failures.
+- Sends the Telegram completion alert only after `data.json` validates.
 
 ## Run Locally
 
